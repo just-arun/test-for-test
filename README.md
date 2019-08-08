@@ -1,2 +1,2 @@
 # test-for-test
-basic tesing with mocha & chai
+basic testing with mocha & chai
