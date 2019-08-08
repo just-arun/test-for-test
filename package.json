@@ -1,0 +1,40 @@
+{
+  "name": "logio",
+  "version": "1.0.0",
+  "description": "* login auth for **HR** * employe log **in/out** * get all detaile * get single person detail * CUD for hr * user leave log",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.0",
+    "multer": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-json-schema": "^1.5.1",
+    "jsonschema": "^1.2.4",
+    "mocha": "^6.1.4",
+    "mongodb": "^3.2.7",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "dev": "clear && nodemon app.js",
+    "start": "clear && node app.js",
+    "test": "clear && mocha || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
